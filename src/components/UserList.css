@@ -1,0 +1,123 @@
+    .container {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 1 auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 2px 4px 8px rgba(80, 131, 13, 0.1);
+        margin-top: 40px;
+        background-color: rgb(232, 211, 231);
+    }
+    
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #3a0d3e;
+        color: white;
+        font-size: 30px;
+        box-shadow: 2px 4px 8px rgba(220, 233, 203, 0.1);
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+    }
+    
+    .user-table {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #f8f1f1;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .create-user-link {
+        border-radius: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    th,
+    td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    tr:hover {
+        background-color: rgba(209, 210, 207, 0.976);
+    }
+    
+    .th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #04AA6D;
+        color: white;
+    }
+    
+    .table-body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .edit-btn {
+        background-color: #298469;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid white;
+    }
+    
+    .details-btn {
+        color: #131212;
+    }
+    
+    .details-btn:visited {
+        color: hotpink;
+    }
+    
+    .table-head {
+        color: rgb(7, 64, 35);
+        text-align: center;
+        font-style: italic
+    }
+    
+    .table-data {
+        color: rgb(40, 42, 39);
+        padding: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .delete-btn {
+        background-color: #b060a7;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid white;
+    }
+    /* .list-container {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        justify-content: center;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 2px 4px 8px rgba(80, 131, 13, 0.1);
+        margin-top: 40px;
+        background-color: rgb(232, 211, 231);
+    } */

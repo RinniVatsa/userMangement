@@ -1,0 +1,121 @@
+/* styles.css */
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.details-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.details-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Global Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+
+/* User List */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li button {
+    padding: 8px 16px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #d94343;
+}
+
+
+/* Form Styles */
+
+form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    li button {
+        margin-top: 10px;
+    }
+}
